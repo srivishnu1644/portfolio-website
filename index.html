@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Vishnu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sri Vishnu</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-header">
+      <h1>Hey, I'm <span class="hero-name">Sri Vishnu</span> 👋</h1>
+      <img src="download.png" alt="Sri Vishnu" class="hero-image" />
+      <div class="down-arrow">
+        <i class="fas fa-arrow-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inside About Section -->
+<section id="about" class="section white-bg">
+  <h2>About Me</h2>
+  <p>
+    I'm <strong>Sri Vishnu Medagoni</strong>, a final-year B.Tech Computer Science Engineering student specializing in Artificial Intelligence & Machine Learning.
+  </p>
+  <p>
+    I love building things that make life easier. I work with Java, Python, JavaScript, HTML, CSS, and a splash of coffee ☕.
+  </p>
+  <div class="resume-button-wrapper">
+    <a href="resume.pdf" download class="btn">Download My Resume</a>
+  </div>
+  <div class="down-arrow blue-arrow">
+    <i class="fas fa-arrow-down"></i>
+  </div>
+</section>
+
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <i class="fa-brands fa-java skill-icon"></i>
+        <span class="skill-name">Java</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-python skill-icon"></i>
+        <span class="skill-name">Python</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-js skill-icon"></i>
+        <span class="skill-name">JavaScript</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-html5 skill-icon"></i>
+        <i class="fa-brands fa-css3-alt skill-icon"></i>
+        <span class="skill-name">HTML5 & CSS3</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-react skill-icon"></i>
+        <span class="skill-name">React.js</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-solid fa-database skill-icon"></i>
+        <span class="skill-name">MySQL</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-git-alt skill-icon"></i>
+        <span class="skill-name">Git & GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section blue-bg">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Diabetes Prediction Using ML</h3>
+      <p>Using Python (SVM, Decision Trees, ANN), MySQL, and Tkinter to predict diabetes risk early.</p>
+    </div>
+    <div class="project-card">
+      <h3>Suicide Detection in Twitter Data Streams</h3>
+      <p>Real-time tweet analysis using Java Servlets + NLP + SHA-512 encryption to detect risks on Twitter data.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xzzrdgjp" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sri Vishnu. Built with 💙 and coffee addiction ☕.</p>
+  </footer>
+
+</body>
+</html>
